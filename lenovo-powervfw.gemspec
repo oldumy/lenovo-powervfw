@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Online Dummy"]
   s.date = %q{2011-01-08}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Provide a executable client and a series of APIs of Power V firewall of Lenovo. You can use the client to interact with the firewall, and you can also program with the APIs.}
   s.email = %q{oldumy@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "lenovo-powervfw.gemspec",
     "lib/lenovo-powervfw.rb",
     "spec/lenovo-powervfw_spec.rb",
     "spec/spec_helper.rb"
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Lenovo PowerV Firewall}
   s.test_files = [
     "spec/lenovo-powervfw_spec.rb",
     "spec/spec_helper.rb"
